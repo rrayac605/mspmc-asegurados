@@ -1,0 +1,13 @@
+server:
+  port: ${portMSAsegurados}
+  
+
+logging:
+  file: ${fileLogAsegurados}  
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    root: INFO
+    mx.gob.imss.cit.pmc: INFO
+    

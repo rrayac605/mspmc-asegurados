@@ -1,0 +1,7 @@
+spring:
+  application:    
+    name: mspmc-asegurados
+info: 
+  component: Microservicio de asegurados   
+    
+    
